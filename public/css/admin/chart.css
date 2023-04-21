@@ -1,0 +1,45 @@
+
+.w50 { max-width: 50% !important; }
+
+.tabs {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.tabs li {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #848484;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.tabs li:hover { background-color: #03787C; color:#fff; }
+.tabs li.active { background-color: #ececec; color: #000000; }
+
+.tabs-content { padding: 10px 0px; }
+.tabs-content>div { display: none; }
+.tabs-content .active { display: block !important; }
+
+
+@media screen and (max-width: 600px) {
+    .tabs { display: flex; flex-direction: column;}
+}
+#Chart {
+    width: 100%;
+}
+.chart-box {
+    width:100%;
+    min-width: 450px;
+    max-width: 50%;
+    float: left;
+    padding-bottom: 40px;
+}
+

@@ -1,0 +1,35 @@
+#admin_top_table {
+    text-align: center;
+}
+
+.totalColumn {
+    font-weight: bold;
+    background: #1bb99a !important;
+}
+
+.table-head {
+    background: white !important;
+}
+
+.table-head th {
+    font-weight: bold;
+}
+
+.totalColumn th {
+    font-weight: bold;
+}
+
+.width-column {
+    width: 80px;
+}
+
+.width-column-one-letter {
+    width: 65px;
+}
+
+.width-column-two-letter {
+    width: 75px;
+}
+.width-column-three-letter {
+    width: 95px;
+}

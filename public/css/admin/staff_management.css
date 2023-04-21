@@ -1,0 +1,57 @@
+.title-content-page {
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.custom-button-search {
+    width: 100px;
+}
+
+.button-custom {
+    border: 1px solid rgb(22, 155, 213);
+    padding: 0;
+    width: 120px;
+    height: 30px;
+    color: black;
+    background: white;
+    border-radius: 30px;
+}
+
+.button-register {
+    float: right;
+    background: rgb(22, 155, 213);
+    color: white;
+}
+
+.button-register:hover, button:active {
+    color: white !important;
+}
+
+.space-input {
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.title-history-login {
+    border: none !important;
+}
+
+.button-submit {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-tag-custom {
+    color:black;
+}
+
+.delete-staff {
+    cursor: pointer;
+}
+
+.button-status-staff {
+    width: 70px;
+}

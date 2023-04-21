@@ -1,0 +1,28 @@
+<?php
+return [
+    'qrcode_title' => 'QR Code create',
+    'button_import' => 'Import',
+    'import_title_page' => 'QR Code create',
+    'title_import' => 'QR Code create',
+    'required_csv_input' => 'File CVS is required.',
+    'import_csv_success' => 'Import CSV successfully.',
+    'import_csv_fail' => 'CSV import failed!',
+    'create_qrcode_fail' => 'Create QrCode failed!',
+    'download_qrcode_fail' => 'Download QrCode failed!',
+    'csv_uploading' => 'CSV import processing...',
+    'qrcode_rendering' => 'QrCode generation processing...',
+    'qrcode_downloading' => 'QrCode download processing...',
+    'qrcode_render_success' => 'Create QrCodes successfully.',
+    'no_qrcode_download' => 'Have no QrCode to download!',
+    'csv_invalid_data' => 'CSV data is invalid',
+    'name' => 'Name',
+    'postcode_1' => 'Postcode 1',
+    'postcode_2' => 'Postcode 2',
+    'address' => 'Address',
+    'tel' => 'Tel',
+    'birthday' => 'Birthday',
+    'sex' => 'Sex',
+    'export_csv_sample' => 'Download sample CSV',
+    'delete' => 'Delete',
+    'download' => 'Download'
+];

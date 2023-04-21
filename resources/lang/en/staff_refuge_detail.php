@@ -1,0 +1,23 @@
+<?php
+return [
+    'page_title' =>'Family Detail',
+    'section_title' =>'Confirmation of household information registration',
+    'section_title_sub' =>'Household number',
+    'street_address' =>'Street address',
+    'phone_rep' =>'Phone (representative)',
+    'household_list' =>'Household list',
+    'representative' =>'Representative',
+    'th_1'=>' No.',
+    'th_2' =>'Representative',
+    'th_3' =>'Name (phonetic)',
+    'th_4' =>'Age',
+    'th_5' =>'Gender',
+    'th_6' =>'Needs attention number',
+    'th_7' =>'Remarks',
+    'th_8' =>'Created date',
+    'th_9' => 'Update date',
+    'td_1_3' =>'Kenji Gunma',
+    'td_2_3' =>'Mieko Gunma',
+    'td_3_3' =>'Gunma Umeko',
+    'td_4_3' =>'Takuzo Gunma',
+];

@@ -1,0 +1,22 @@
+<?php
+return [
+    'title' => '世帯情報詳細',
+    'street_address' => '住所',
+    'phone_rep' => '電話（代表者)',
+    'household_list' => '世帯名簿',
+    'th_1' => 'No.',
+    'th_2' => '代表者',
+    'th_3' => '氏名(フリガナ)',
+    'th_4' => '年齢',
+    'th_5' => '性別',
+    'th_6' => '要配慮者番号',
+    'th_7' => '備考',
+    'th_8' => '作成日',
+    'th_9' => '更新日',
+    'place_name' => '避難所',
+    'join_in' => '入所日',
+    'join_out' => '退所日',
+    'language_register' => '登録言語環境',
+    'language_english' => '英語',
+    'language_japan' => '日本語',
+];

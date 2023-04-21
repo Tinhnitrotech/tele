@@ -1,0 +1,48 @@
+#family_content .form-check .error {
+    display: table-caption;
+    padding: 20px 0 0;
+}
+#add-family-form .custom-control-input {
+    left: -24px;
+    width: 36px;
+    height: 36px;
+}
+#add-family-form .checkbox label::before {
+    top: 0px;
+    height: 36px;
+    margin-left: -36px;
+    width: 36px;
+}
+#add-family-form .checkbox input[type=checkbox]:checked+label::after {
+    top: 0px;
+    left: -6px;
+    width: 14px;
+    height: 26px;
+}
+@media all and (min-width: 1200px) {
+    .custom-col .w-16 {
+        max-width: 15.8%;
+    }
+}
+.submit_btn {
+    font-size: 30px;
+    height: 76px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .submit_btn {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .submit_btn {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .common_tablet_font {
+        font-size: 18px;
+        padding-top: 0.75rem;
+    }
+}

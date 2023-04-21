@@ -1,0 +1,120 @@
+.block-seperate {
+    display: inline-flex;
+    width: 32%;
+}
+.block-phone {
+    display: inline-flex;
+    padding: 0px;
+}
+.table-user td, .table-user th {
+    padding-bottom: 0px;
+}
+thead.title_user th {
+    padding-bottom: 10px;
+}
+span.unit.responsive_unit {
+    padding-top: 2px;
+    margin: 5px;
+}
+.block-zipcode {
+    display: inline-flex;
+}
+.custom-control.custom-radio {
+    justify-content: flex-start;
+}
+.submit_btn {
+    font-size: 28px;
+    height: 76px;
+}
+
+[name="is_owner"]:checked,
+[name="is_owner"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[name="is_owner"]:checked + label,
+[name="is_owner"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[name="is_owner"]:checked + label:before,
+[name="is_owner"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[name="is_owner"]:checked + label:after,
+[name="is_owner"]:not(:checked) + label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #3db9dc;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[name="is_owner"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[name="is_owner"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+#family_content .form-check .error {
+    display: table-caption;
+    padding: 20px 0 0;
+}
+
+#add-family-form .custom-control-input {
+    left: -24px;
+    width: 36px;
+    height: 36px;
+}
+#add-family-form .checkbox label::before {
+    top: 0px;
+    height: 36px;
+    margin-left: -36px;
+    width: 36px;
+}
+#add-family-form .checkbox input[type=checkbox]:checked+label::after {
+    top: 0px;
+    left: -6px;
+    width: 14px;
+    height: 26px;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 575px) {
+    .submit_btn {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .submit_btn {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+    .common_tablet_font {
+        font-size: 18px;
+        padding-top: 0.75rem;
+    }
+}

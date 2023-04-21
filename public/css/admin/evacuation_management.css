@@ -1,0 +1,32 @@
+.title-content-page {
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.custom-width-60 {
+    width: 60px;
+}
+
+.custom-button-search {
+    width: 100px;
+}
+
+.row-header > th {
+    vertical-align: middle !important;
+}
+.custom-width-16 {
+    width: 16%;
+}
+
+.custom-width-10 {
+    width: 10%;
+}
+
+.custom-width-14 {
+    width: 14%;
+}
+
+.border-d-none {
+    border: none;
+}

@@ -1,0 +1,38 @@
+.go_to_staff {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button-user {
+    width: 100%;
+    padding: 140px 0;
+}
+
+.button-user h3 {
+    font-size: 6em;
+    font-weight: bold
+}
+
+.custom-div {
+    width: 100%;
+    padding: 15px;
+}
+
+.title_place {
+    height: 76px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .button-user {
+        padding: 100px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .button-user {
+        padding: 60px 0;
+    }
+}

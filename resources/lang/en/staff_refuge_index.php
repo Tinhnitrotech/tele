@@ -1,0 +1,27 @@
+<?php
+return [
+    'page_title' =>'User List ',
+    'section_title' =>'List of evacuees',
+    'household_number' => 'Household number',
+    'name_phonetic' => 'Name (phonetic)',
+    'search' => 'Search',
+    'btn_sign_up' => 'Sign Up',
+    'male' =>'Male',
+    'female' =>'Female',
+    'representative' =>'Representative',
+    'th_1' =>'Household number',
+    'th_2' =>'Number of households',
+    'th_3' =>'Family code',
+    'th_4' =>'Household representative',
+    'th_5' =>'Name (phonetic)',
+    'th_6' =>'Gender',
+    'th_7' =>'Age',
+    'th_8' =>'Needs attention number',
+    'th_9' =>'Remarks',
+    'th_10' =>'Date created',
+    'place_name' => 'Place name',
+    'place_name_en' => 'Place name (English)',
+    'checkout' => 'Checkout',
+    'go_to_top' => 'Back to TOP',
+    'total_family' => 'Total (Summary)'
+];

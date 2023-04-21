@@ -1,0 +1,28 @@
+<?php
+return [
+    'qrcode_title' => 'QRコード作成',
+    'button_import' => 'インポート',
+    'import_title_page' => 'QRコード作成',
+    'title_import' => 'QRコード作成',
+    'required_csv_input' => 'CSVファイルが必須です。',
+    'import_csv_success' => 'CSVが正常にインポートされました。',
+    'import_csv_fail' => 'CSVのインポートに失敗しました。',
+    'create_qrcode_fail' => 'QRコードの作成に失敗しました。',
+    'download_qrcode_fail' => 'QRコードのダウンロードに失敗しました。',
+    'csv_uploading' => 'CSVインポートの処理中。。。',
+    'qrcode_rendering' => 'QRコード生成の処理中。。。',
+    'qrcode_downloading' => 'QRコードダウンロードの処理中。。。',
+    'qrcode_render_success' => 'QRコードが正常に生成されました。',
+    'no_qrcode_download' => 'ダウンロードするQRコードがありません。',
+    'csv_invalid_data' => 'CSVデータが無効です。',
+    'name' => '氏名',
+    'postcode_1' => '郵便番号１',
+    'postcode_2' => '郵便番号２',
+    'address' => '住所',
+    'tel' => '電話番号',
+    'birthday' => '生年月日',
+    'sex' => '性別',
+    'export_csv_sample' => 'サンプルCSVのダウンロード',
+    'delete' => '削除',
+    'download' => 'ダウンロード'
+];

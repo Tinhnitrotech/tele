@@ -1,0 +1,9 @@
+.text-forgot {
+    text-decoration-color: cornflowerblue;
+    text-decoration-line: underline;
+}
+.text-forgot a :hover {
+    text-decoration: underline !important;
+    text-decoration-color: cornflowerblue !important;
+    text-decoration-line: underline !important;
+}
